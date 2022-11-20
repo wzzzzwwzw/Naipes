@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/wzzzzwwzw/Naipes/issues"
   },
-  "homepage": "https://github.com/wzzzzwwzw/Naipes#readme"
+  "homepage": "https://github.com/wzzzzwwzw/Naipes#readme",
+  "dependencies": {
+    "bootstrap": "^3.4.1"
+  }
 }
