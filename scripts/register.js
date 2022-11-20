@@ -11,3 +11,4 @@ $("#buttonSend").click(function (e) {
     $("form").addClass('was-validated');
 
 });
+
