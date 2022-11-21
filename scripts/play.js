@@ -1,4 +1,3 @@
-
 var randoms = [];
 var first_click;
 var points, correct, total;
