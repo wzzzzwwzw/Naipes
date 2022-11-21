@@ -81,7 +81,7 @@ $(document).on('click', '.cardImg', function(e) {
 
         } else {
             points -= 5;
-            contdownSecondClick(first_id, currentId);
+            countdownSecondClick(first_id, currentId);
             $("#points").html(points);
         }
         first_click=false;
@@ -89,7 +89,7 @@ $(document).on('click', '.cardImg', function(e) {
     }
 });
 
-function contdownSecondClick(first_id, currentId) {
+function countdownSecondClick(first_id, currentId) {
 
     setTimeout(function() {
 
@@ -104,8 +104,8 @@ function contdownSecondClick(first_id, currentId) {
     }, 700);
 }
 
-function startContdown() {
-        countDown = time;
+function startCountdown() {
+      var  countDown = time;
     add = setInterval(function() {
        countDown = countDown - 1;
         if (countDown === 0) {
@@ -130,7 +130,7 @@ function startContdown() {
     }, 1000);
 }
 
-function suffle(cards) {
+function shuffle(cards) {
 
     for(var j=0;j<(images/2);j++){
         i = Math.floor(Math.random() * 5);
@@ -171,11 +171,11 @@ function setInit() {
     $("#points").html(0);
     $("#total").html(0);
     $("#time").html(time);
-    randoms = suffle(cards);
+    randoms = shuffle(cards);
     clearInterval(add);
     
-    if(time != "s/t"){
-        startContdown();
+    if(time !== "s/t"){
+        startCountdown();
     }
 
 }
@@ -217,7 +217,7 @@ function getTotal() {
 
 function checkMatches(){
 
-    if(correct == matches){
+    if(correct === matches){
         clearInterval(add);
         getTotal();
         $( function() {
