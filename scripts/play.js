@@ -72,7 +72,7 @@ $(document).on('click', '.cardImg', function(e) {
             currentCard.attr('src', '/assets/images/' + randoms[Number(currentCard.attr('data-card'))]);
         }
 
-        if (first_image == randoms[Number(currentCard.attr('data-card'))]) {
+        if (first_image === randoms[Number(currentCard.attr('data-card'))]) {
 
             points += 15;
             $("#points").html(points);
@@ -109,7 +109,7 @@ function startContdown() {
         countDown = time;
     add = setInterval(function() {
        countDown = countDown - 1;
-        if (countDown == 0) {
+        if (countDown === 0) {
             clearInterval(add);
             getTotal();
             $( function() {
