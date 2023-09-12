@@ -1,6 +1,6 @@
-# Angular-Matching-Cards
+# Naipes
 
-The Angular Matching Card Game is an engaging and interactive web-based memory game where players are challenged to match pairs of cards. It's a fun and educational game suitable for all ages that tests your memory and cognitive skills.
+Naipes Game is an engaging and interactive web-based memory game where players are challenged to match pairs of cards. It's a fun and educational game suitable for all ages that tests your memory and cognitive skills.
 
 ![mc](https://github.com/wzzzzwwzw/Angular-Matching-Cards/assets/46055260/118932ea-d17d-4de6-b9f7-d195d3264596)
 
@@ -33,8 +33,8 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
 ### Built With
- ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
- ![jQuery](https://img.shields.io/badge/jquery-%230769AD.svg?style=for-the-badge&logo=jquery&logoColor=white)
+* ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
+* ![jQuery](https://img.shields.io/badge/jquery-%230769AD.svg?style=for-the-badge&logo=jquery&logoColor=white)
 * [![Bootstrap][Bootstrap.com]][Bootstrap-url]
 * ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
 
