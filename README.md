@@ -1,6 +1,6 @@
 # Naipes
 
-Naipes Game is an engaging and interactive web-based memory game where players are challenged to match pairs of cards. It's a fun and educational game suitable for all ages that tests your memory and cognitive skills.
+Naipes Game is an engaging and interactive web-based memory game where players are challenged to match pairs of cards.
 
 ### Built With
 * ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
